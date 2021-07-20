@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+mainClassName = 'org.sugarcanemc.wikifaqbot.Bot'
+
+group 'org.sugarcanemc.wikifaqbot'
+version '0.1.0'
+def jdaVer = '4.3.0_298'
+
+sourceCompatibility = targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://m2.dv8tion.net/releases"
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation("net.dv8tion:JDA:$jdaVer")
+    compile group: 'org.yaml', name: 'snakeyaml', version: '1.27'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+test {
+    useJUnitPlatform()
+}
