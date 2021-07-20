@@ -1,4 +1,4 @@
-package org.sugarcanemc.wikifaqbot.config;
+package tech.nevets.lunarbot.config;
 
 public class Config {
     private String prefix;

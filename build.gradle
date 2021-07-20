@@ -4,10 +4,10 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '5.2.0'
 }
 
-mainClassName = 'org.sugarcanemc.wikifaqbot.Bot'
+mainClassName = 'tech.nevets.lunarbot.Bot'
 
-group 'org.sugarcanemc.wikifaqbot'
-version '0.1.0'
+group 'tech.nevets.lunarbot'
+version '1.0'
 def jdaVer = '4.3.0_298'
 
 sourceCompatibility = targetCompatibility = 1.8

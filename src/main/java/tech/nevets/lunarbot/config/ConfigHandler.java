@@ -1,4 +1,4 @@
-package org.sugarcanemc.wikifaqbot.config;
+package tech.nevets.lunarbot.config;
 
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;

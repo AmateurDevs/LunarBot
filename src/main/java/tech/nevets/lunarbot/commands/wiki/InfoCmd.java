@@ -1,15 +1,15 @@
-package org.sugarcanemc.wikifaqbot.commands;
+package tech.nevets.lunarbot.commands.wiki;
 
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import org.sugarcanemc.wikifaqbot.config.ConfigHandler;
+import tech.nevets.lunarbot.config.ConfigHandler;
 
 import java.io.FileNotFoundException;
 
 public class InfoCmd extends ListenerAdapter {
-
+    @Override
     public void onMessageReceived(MessageReceivedEvent e) {
         if (e.getAuthor().isBot()) return;
         Message message = e.getMessage();

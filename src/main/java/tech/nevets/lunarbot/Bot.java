@@ -1,15 +1,15 @@
-package org.sugarcanemc.wikifaqbot;
+package tech.nevets.lunarbot;
 
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
-import org.sugarcanemc.wikifaqbot.commands.CoinCmd;
-import org.sugarcanemc.wikifaqbot.commands.DiceCmd;
-import org.sugarcanemc.wikifaqbot.commands.InfoCmd;
-import org.sugarcanemc.wikifaqbot.commands.PingCmd;
-import org.sugarcanemc.wikifaqbot.config.Config;
-import org.sugarcanemc.wikifaqbot.config.ConfigHandler;
-import org.sugarcanemc.wikifaqbot.config.ConfigUtils;
+import tech.nevets.lunarbot.commands.games.CoinCmd;
+import tech.nevets.lunarbot.commands.games.DiceCmd;
+import tech.nevets.lunarbot.commands.wiki.InfoCmd;
+import tech.nevets.lunarbot.commands.games.PingCmd;
+import tech.nevets.lunarbot.config.Config;
+import tech.nevets.lunarbot.config.ConfigHandler;
+import tech.nevets.lunarbot.config.ConfigUtils;
 
 import java.io.File;
 

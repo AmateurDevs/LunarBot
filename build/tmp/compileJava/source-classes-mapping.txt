@@ -1,18 +1,16 @@
-org/sugarcanemc/wikifaqbot/config/ConfigUtils.java
- org.sugarcanemc.wikifaqbot.config.ConfigUtils
-org/sugarcanemc/wikifaqbot/commands/InfoCmd.java
- org.sugarcanemc.wikifaqbot.commands.InfoCmd
-org/sugarcanemc/wikifaqbot/commands/DiceCmd.java
- org.sugarcanemc.wikifaqbot.commands.DiceCmd
-org/sugarcanemc/wikifaqbot/config/Config.java
- org.sugarcanemc.wikifaqbot.config.Config
-org/sugarcanemc/wikifaqbot/commands/PingCmd.java
- org.sugarcanemc.wikifaqbot.commands.PingCmd
-org/sugarcanemc/wikifaqbot/config/ConfigHandler.java
- org.sugarcanemc.wikifaqbot.config.ConfigHandler
-org/sugarcanemc/wikifaqbot/webapi/WebAPI.java
- org.sugarcanemc.wikifaqbot.webapi.WebAPI
-org/sugarcanemc/wikifaqbot/Bot.java
- org.sugarcanemc.wikifaqbot.Bot
-org/sugarcanemc/wikifaqbot/commands/CoinCmd.java
- org.sugarcanemc.wikifaqbot.commands.CoinCmd
+tech/nevets/lunarbot/config/ConfigHandler.java
+ tech.nevets.lunarbot.config.ConfigHandler
+tech/nevets/lunarbot/commands/DiceCmd.java
+ tech.nevets.lunarbot.commands.DiceCmd
+tech/nevets/lunarbot/config/Config.java
+ tech.nevets.lunarbot.config.Config
+tech/nevets/lunarbot/commands/CoinCmd.java
+ tech.nevets.lunarbot.commands.CoinCmd
+tech/nevets/lunarbot/commands/InfoCmd.java
+ tech.nevets.lunarbot.commands.InfoCmd
+tech/nevets/lunarbot/commands/PingCmd.java
+ tech.nevets.lunarbot.commands.PingCmd
+tech/nevets/lunarbot/config/ConfigUtils.java
+ tech.nevets.lunarbot.config.ConfigUtils
+tech/nevets/lunarbot/Bot.java
+ tech.nevets.lunarbot.Bot

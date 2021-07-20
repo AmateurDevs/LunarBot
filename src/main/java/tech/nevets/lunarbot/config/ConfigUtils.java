@@ -1,4 +1,4 @@
-package org.sugarcanemc.wikifaqbot.config;
+package tech.nevets.lunarbot.config;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -25,7 +25,7 @@ public class ConfigUtils {
 
         try {
             FileWriter writer = new FileWriter("config.yml");
-            writer.write("prefix: \"!\"\nbotToken: \"BOTTOKEN\"\nmode: \"default\"");
+            writer.write("prefix: \"!\"\nbotToken: \"BOTTOKEN\"");
             writer.close();
             System.out.println("Successfully wrote to config.yml");
         } catch (IOException e) {
