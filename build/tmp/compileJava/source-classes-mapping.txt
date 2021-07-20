@@ -1,16 +1,20 @@
 tech/nevets/lunarbot/config/ConfigHandler.java
  tech.nevets.lunarbot.config.ConfigHandler
-tech/nevets/lunarbot/commands/DiceCmd.java
- tech.nevets.lunarbot.commands.DiceCmd
-tech/nevets/lunarbot/config/Config.java
- tech.nevets.lunarbot.config.Config
-tech/nevets/lunarbot/commands/CoinCmd.java
- tech.nevets.lunarbot.commands.CoinCmd
-tech/nevets/lunarbot/commands/InfoCmd.java
- tech.nevets.lunarbot.commands.InfoCmd
-tech/nevets/lunarbot/commands/PingCmd.java
- tech.nevets.lunarbot.commands.PingCmd
 tech/nevets/lunarbot/config/ConfigUtils.java
  tech.nevets.lunarbot.config.ConfigUtils
+tech/nevets/lunarbot/config/Config.java
+ tech.nevets.lunarbot.config.Config
+tech/nevets/lunarbot/webserver/WebServer.java
+ tech.nevets.lunarbot.webserver.WebServer
+tech/nevets/lunarbot/commands/games/CoinCmd.java
+ tech.nevets.lunarbot.commands.games.CoinCmd
+tech/nevets/lunarbot/commands/wiki/InfoCmd.java
+ tech.nevets.lunarbot.commands.wiki.InfoCmd
+tech/nevets/lunarbot/webserver/WebAPI.java
+ tech.nevets.lunarbot.webserver.WebAPI
 tech/nevets/lunarbot/Bot.java
  tech.nevets.lunarbot.Bot
+tech/nevets/lunarbot/commands/games/DiceCmd.java
+ tech.nevets.lunarbot.commands.games.DiceCmd
+tech/nevets/lunarbot/commands/games/PingCmd.java
+ tech.nevets.lunarbot.commands.games.PingCmd
