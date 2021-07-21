@@ -10,7 +10,8 @@ import tech.nevets.lunarbot.commands.games.PingCmd;
 import tech.nevets.lunarbot.config.Config;
 import tech.nevets.lunarbot.config.ConfigHandler;
 import tech.nevets.lunarbot.config.ConfigUtils;
-import tech.nevets.lunarbot.webserver.WebServer;
+import tech.nevets.lunarbot.webserver.WebAPI;
+import tech.nevets.lunarbot.webserver.WebGenerator;
 
 import java.io.File;
 
@@ -39,8 +40,8 @@ public class Bot {
         jda.awaitReady();
         System.out.println("Finished Building Bot!");
 
-        WebServer.main(null);
-        System.out.println("WebServer successfully loaded in main class!");
+        WebAPI.main(null);
+        WebGenerator.main(null);
 
     }
 }
