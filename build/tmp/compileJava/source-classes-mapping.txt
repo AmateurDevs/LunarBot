@@ -4,8 +4,8 @@ tech/nevets/lunarbot/config/ConfigUtils.java
  tech.nevets.lunarbot.config.ConfigUtils
 tech/nevets/lunarbot/config/Config.java
  tech.nevets.lunarbot.config.Config
-tech/nevets/lunarbot/webserver/WebServer.java
- tech.nevets.lunarbot.webserver.WebServer
+tech/nevets/lunarbot/webserver/WebGenerator.java
+ tech.nevets.lunarbot.webserver.WebGenerator
 tech/nevets/lunarbot/commands/games/CoinCmd.java
  tech.nevets.lunarbot.commands.games.CoinCmd
 tech/nevets/lunarbot/commands/wiki/InfoCmd.java

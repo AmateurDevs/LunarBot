@@ -19,11 +19,10 @@ public class InfoCmd extends ListenerAdapter {
 
         if (content.equalsIgnoreCase(prefix + "info")) {
             EmbedBuilder info = new EmbedBuilder();
-            info.setTitle("📚・Information・📚");
-            info.setDescription("Information about Sugarcane");
-            info.addField("Creator", "nevetS-718", false);
-            info.setFooter("SugarcaneMC", "https://cdn.discordapp.com/icons/855918593497759754/a_978a67a83330554987cd7521f638fea8.gif?size=4096");
-            info.setColor(0x73fc03);
+            info.setTitle("📚・LunarBot・📚");
+            info.setDescription("Lunarbot cuz y not");
+            info.setFooter("LunarBot: Created by nevetS & 5gi", "https://cdn.discordapp.com/icons/855918593497759754/a_978a67a83330554987cd7521f638fea8.gif?size=4096");
+            info.setColor(0x2a2ea3);
 
             e.getChannel().sendTyping().queue();
             e.getChannel().sendMessage(info.build()).queue();

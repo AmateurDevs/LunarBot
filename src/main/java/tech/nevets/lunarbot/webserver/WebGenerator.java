@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class WebGenerator {
 
-    public static void main(String args[]) {
+    public static void generator(String args[]) {
 
-        System.out.println("");
+        System.out.println();
         Scanner sc = new Scanner(System.in);
         String path = sc.next();
         //Using Scanner class to get the folder name from the user

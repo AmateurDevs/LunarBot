@@ -209,31 +209,6 @@ public class WebAPI implements Runnable{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**    static final File WEB_ROOT = new File("/WebAPI");
     static final String DEFAULT_File = "index.html";
     static final String FILE_NOT_FOUND = "404.html";

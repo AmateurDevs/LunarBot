@@ -41,7 +41,7 @@ public class Bot {
         System.out.println("Finished Building Bot!");
 
         WebAPI.main(null);
-        WebGenerator.main(null);
+        WebGenerator.generator(null);
 
     }
 }

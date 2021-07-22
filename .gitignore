@@ -24,6 +24,6 @@ hs_err_pid*
 
 #Files with sensitive info
 config.yml
-/WebAPI
-/build
-/.idea
+WebAPI/
+build/
+.idea/
