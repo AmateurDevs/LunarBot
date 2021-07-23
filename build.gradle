@@ -10,12 +10,19 @@ group 'tech.nevets.lunarbot'
 version '1.0'
 def jdaVer = '4.3.0_298'
 
-sourceCompatibility = targetCompatibility = 1.8
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
     maven {
         url "https://m2.dv8tion.net/releases"
+    }
+    maven {
+        name 'duncte123-jfrog'
+        url 'https://duncte123.jfrog.io/artifactory/maven'
+    }
+    maven {
+        url 'https://jitpack.io'
     }
 }
 
@@ -24,6 +31,9 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     implementation("net.dv8tion:JDA:$jdaVer")
     compile group: 'org.yaml', name: 'snakeyaml', version: '1.27'
+    implementation group: 'me.duncte123', name: 'botCommons', version: '2.3.8'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.4'
+    implementation 'me.carleslc.Simple-YAML:Simple-Yaml:1.7.2'
 }
 
 compileJava.options.encoding = 'UTF-8'
