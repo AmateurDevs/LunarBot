@@ -11,7 +11,7 @@ import tech.nevets.lunarbot.commands.ICommand;
 
 import java.util.Random;
 
-public class CoindCmd implements ICommand {
+public class CoinCmd implements ICommand {
 
     @Override
     public void handle(CommandContext ctx) {
