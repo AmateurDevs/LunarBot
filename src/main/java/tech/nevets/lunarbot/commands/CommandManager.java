@@ -19,7 +19,7 @@ public class CommandManager {
     public CommandManager() {
         addCommand(new CoinCmd());
         addCommand(new DiceCmd());
-        addCommand(new PingCmd);
+        addCommand(new PingCmd());
         addCommand(new InfoCmd());
     }
 
